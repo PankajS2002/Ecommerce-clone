@@ -1,0 +1,241 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@600&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Montserrat', sans-serif;
+}
+h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+h2{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+h3{
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+h4{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+h5{
+    font-size: 1rem;
+    font-weight: 400;
+    color: black;
+}
+h6{
+    color: white;
+}
+button{
+    font-size: 0.8rem;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: aliceblue;
+    padding: 13px 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#name{
+    font-family:'Poppins',sans-serif;
+    font-weight: 900;
+}
+button:hover{
+    background-color: grey;
+    transition: 0.3 ease;
+}
+.navbar{
+    font-size: 16px;
+    font-weight: 900;
+    top:0;
+    left: 0;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    padding: 0 20px;
+    color: black;
+    transition: 0.3s ease;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar i:hover,
+.navbar-light .navbar-nav .nav-link:active,
+.navbar i:active{
+    color: rgb(255, 51, 0);
+    
+}
+
+.navbar i{
+  
+    padding: 0 10px;
+    transition: 0.3s ease;
+}
+
+#home span{
+  color:rgb(255, 98, 0);
+}
+#home{
+    background-image: url(Images/background11.png);
+    width: 100%;
+    height: 95vh;
+    background-size: cover;
+     background-position: top 100px center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:flex-start;
+   
+}
+#navbarSupportedContent > ul {
+    margin: 1rem;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+}
+
+#options span{
+
+}
+#options .first img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+
+}
+
+#options .first .detail{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: 0.3s ease;
+}
+#options .first:hover .detail{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+#options .first .detail button:hover{
+    color: white;
+    border-bottom: 1px solid white;
+}
+#options .first:nth-child(2) .detail{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+align-items: center;
+text-align: center;
+
+}
+#options .first:nth-child(3) .detail{
+    display: flex;
+    justify-content:end;
+    flex-direction: column;
+align-items: flex-end;
+text-align: left;
+
+}
+.product img{
+    width: 300px;
+    height: 300px;
+}
+
+
+.product{
+    cursor: pointer;
+    margin-bottom:2rem ;
+} 
+.product img{
+    transition: 0.3s all;
+}
+.product:hover img{
+    opacity: 0.7;
+}
+.product .buy-btn{
+    background-color: #ff6200;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.3s all;
+}
+
+.product:hover .buy-btn{
+   
+    transform: translateY(0px);
+    opacity: 1;
+   
+}
+
+hr{
+    width: 30px;
+    height: 2px;
+    background-color:rgba(255, 94, 0, 0.818) ;
+}
+.star i{
+    font-size: 0.8rem;
+   color: rgb(255, 157, 0);
+}
+
+.star{
+    padding: 10px 0;
+}
+
+#banner{
+    background-image: url(Images/boy1.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+     background-position: top 80px center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:flex-start;
+}
+
+#banner h4{
+    color: rgb(73, 73, 73);    
+}
+
+#banner h1{
+    color: black;
+    
+}
+
+#banner button{
+    color:orange;
+    
+}
+#pay{
+    width: 100px;
+}
+#social{
+   display:flex ;
+   justify-content: end;
+  
+    
+}
+footer{
+    background-color: rgb(51, 50, 50);
+}
+#foot{
+    padding-left: 100px;
+    padding-top: 80px;
+}
